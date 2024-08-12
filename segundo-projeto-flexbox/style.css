@@ -1,0 +1,179 @@
+body, ul, li, p{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    width: 130px;
+}
+
+a{
+    text-decoration: none;
+    color: #f7f5f5;
+
+}
+
+
+img{
+    width: 295px;
+    height: 180px;
+    border-radius: 5px;
+
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a:hover{
+    background-color: rgb(241, 240, 240);
+    color: rgb(19, 235, 73);
+}
+
+.hearder{
+    background-color: rgb(15, 14, 14);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu li{
+    margin-left: 15px;
+}
+
+.menu li a{
+    display: block;
+    padding: 12px;
+}
+
+.container{
+    background-color: #6b6a6a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.item{
+    background-color: #261563;
+    color: #edf3f3;
+    padding: 20px;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.much-more{
+    background-color: #010503;
+    border: rgb(238, 230, 230);
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.much-more:hover{
+    background-color: rgb(248, 243, 243);
+    color: rgb(243, 241, 241);
+    cursor: pointer;
+
+}
+
+.much-more:active{
+    opacity: 0.1;
+}
+
+.telling, .curiosidades{
+    border: black;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 25px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.explicação{
+    padding: 20px;
+}
+
+.contato{
+    border: rgb(231, 212, 212);
+    border-style: solid;
+    border-radius: 30px;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.photo{
+    height: 350px;
+    border-radius: 7px;
+}
+
+.logo{
+    width: 152px;
+    height: 100px;
+}
+
+.button{
+    border-radius: 7px;
+    border: #080808;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(#070707);
+    color: rgb(#261563);
+    transition: 0.4s;
+}
+
+.button:active{
+    opacity: 0.1;
+}
+
+.pesquisa {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+  }
+
+.barra-de-pesquisa{
+    width: 580px;
+    height: 35px;
+    background-color: #060706;
+    border-style: solid;
+    border-color: rgb(49, 233, 126);
+    border-radius: 35px;
+    border-width: 1px;
+    color: rgb(250, 249, 249);
+    padding-left: 20px;
+    transition: 0.4s;
+}
+
+.barra-de-pesquisa:hover{
+    background-color: rgb(245, 250, 247);
+    color: rgb(5, 3, 5);
+    
+}
